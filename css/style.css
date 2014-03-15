@@ -253,14 +253,10 @@ a.button:hover{
 	background: #7ad5e5;
 }
 
-.work-title{
-	font-weight: 400px;
-	margin: auto;
-}
-
 a.client-title{
 	color:#8b8177;
 }
+
 p{
 	color: #838383;
 	font-size: 1em;
