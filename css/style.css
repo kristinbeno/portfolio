@@ -130,10 +130,11 @@ ul.skills li{
 
 header{
 	background-color:#f4e4af;
-	width: 100%;
-	height: 50px;
+	box-shadow: 1px 1px rgba(225, 212, 168, 1);
 	padding-top:10px;
-	box-shadow: 1px 1px rgba(225, 212, 168, 1)
+	margin-bottom:60px;
+	height:50px;
+	
 }
 h1{
 	color:#87827e;
@@ -280,11 +281,11 @@ p{
 }
 .intro{
 	height: 100%;
-	padding:60px 60px 0px 60px;
 }
 
 .logo{
 	margin-top:0px;
+	height: 100%;
 }
 
 .thumb{
@@ -492,9 +493,6 @@ a.viewmore:hover {
     	padding: 0 0 12px 0;
     	max-width:90%;
     }
-    .intro-bg{
-	   padding-bottom: 20px;
-    }
 
 	#instagram img{
 		width: 30px;
@@ -619,12 +617,6 @@ a.viewmore:hover {
 		padding-bottom: 12px;
 		max-width:100%;
 	}
-	.intro{
-		padding:12% 5% 0 5%;
-	}
-	.intro-bg{
-		padding-bottom: 10px;
-    }
 	#instagram img{
 		width: 40px;
 	}
