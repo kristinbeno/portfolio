@@ -492,9 +492,6 @@ ul{
 		width:50%;
 	}
 	.kristin-img{
-		padding-bottom:10px;
-	}
-	.kristin-img{
 		width:80px;
 		padding-bottom:80px;
 		padding-right: 15px;
@@ -532,12 +529,12 @@ ul{
 
 /*  iphone  */
 @media (max-width: 320px) {
-	h1 {
+	h1{
 		font-size:1.2em;
 		padding-bottom: 12px;
 	}
 	
-	.boxes li {
+	.boxes li{
     	width: 94%;
     	margin: 0 3% 25px;
     	float: none;
