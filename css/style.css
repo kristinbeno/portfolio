@@ -28,7 +28,10 @@ a{
 a:hover{
 	text-decoration: underline; 
 }
- 
+
+.h1-highlight{
+	color: #EB8274;
+}
 .divider{
 	background-color: #c6c6c6;
 	border-bottom: 1px solid #fff;
@@ -219,6 +222,7 @@ h6 a:hover{
 	text-align: center;
 	margin-top: 20px;
 	font-size: .9em;
+	list-style: none;
 }
 
 .button a:hover{
