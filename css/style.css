@@ -28,6 +28,10 @@ a{
 .h1-highlight{
 	color: #EB8274;
 }
+
+.logo img{
+	margin-top:-50px;
+}
 .divider{
 	background-color: #c6c6c6;
 	border-bottom: 1px solid #fff;
@@ -150,10 +154,74 @@ h6{
 	margin: 11px 0px;
 }
 
-a:hover,
+p a:hover,
 h3 a:hover,
 h6 a:hover{
 	text-decoration: underline;
+}
+
+nav{
+	float:right;
+	text-align: center;
+	margin-right: 17px;
+	margin-top:3px;
+}
+
+nav ul {
+	background: rgba(135,130,126,.1);
+    display: inline-table;
+    list-style: none outside none;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    font-size: .9em;
+    
+}
+nav ul ul {
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+    
+}
+nav ul li {
+    float: right;
+    padding:8px 11px;
+}
+nav ul li:hover {
+    background:  #9b9692;
+ 
+}
+nav ul li:hover a {
+    color: #fff;
+}
+nav ul li a {
+    color: #757575;
+    display: block;
+    text-decoration: none;
+}
+nav ul ul {
+    background: rgba(135,130,126,.97);
+    border-radius: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    margin-left: -84px;
+    width: 160px;
+   
+}
+nav ul ul li {
+    border-top: 1px solid #9b9692;
+    border-bottom: 1px solid #9b9692;
+    float: none;
+    position: relative;
+    font-size: 1em;
+}
+nav ul ul li a {
+    padding: 7px;
+}
+nav ul ul li a:hover {
+    color: #fff;
 }
 
 .subhead{
@@ -369,6 +437,7 @@ ul{
 	width:45%;
 	float: left;
 }
+
 
 /*  ipad  */
 @media (max-width: 780px) {
