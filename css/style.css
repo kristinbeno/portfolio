@@ -175,6 +175,7 @@ nav ul {
     position: relative;
     text-align: center;
     font-size: .9em;
+  
     
 }
 nav ul ul {
@@ -216,6 +217,7 @@ nav ul ul li {
     float: none;
     position: relative;
     font-size: 1em;
+    transition: all 0.2s ease;
 }
 nav ul ul li a {
     padding: 7px;
